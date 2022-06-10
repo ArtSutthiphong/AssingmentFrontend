@@ -1,0 +1,129 @@
+.iconPrimary {
+    font-size: 18px;
+    color: var(--PrimaryColor);
+}
+
+.iconSecondary {
+    font-size: 18px;
+    color: var(--DarkGrayColor);
+    margin-right: 5px;
+}
+
+.mainImage {
+    background-image: url("../mainImage.jpg");
+    background-size: 100%;
+}
+
+.cardOverlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* card */
+.mainCardContainer {
+    position: relative;
+    top: -80px
+}
+
+.mainCard {
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+    background-color: var(--WhiteColor);
+    height: 300px;
+    width: 19.5vw;
+    border-bottom: 10px solid var(--PrimaryColor);
+    border-radius: 5px;
+    padding: 2vw;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.mainCardIconBackground {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0, 0.05);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* services */
+.mainServiceCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainServices {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: var(--BGPrimaryColor);
+    justify-content: space-evenly;
+}
+
+.mainServiceCard {
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    background-color: var(--WhiteColor);
+    height: 140px;
+    width: 26vw;
+    border-radius: 5px;
+    padding: 1vw;
+    padding-bottom: 1vw;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+/* team */
+.mainTeamContainer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    justify-content: space-evenly;
+
+}
+
+.mainTeam {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainTeamCard {
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    background-color: var(--WhiteColor);
+    height: auto;
+    width: 25vw;
+    padding-bottom: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+/* footer */
+.footerContainer {
+    height: auto;
+    background-color: var(--SecondaryColor);
+    padding: 50px 20px 10px 40px;
+}
+
+.listLink {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2.25;
+}
+
+/* userCard */
+.listUserCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+}
+
+.userCard {
+    width: 350px;
+    background-color: var(--WhiteColor);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+}
